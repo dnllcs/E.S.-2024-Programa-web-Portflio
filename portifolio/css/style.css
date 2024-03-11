@@ -28,7 +28,7 @@ body {
     padding: 0 15px;
 }
 
-.container {
+.container-main {
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
@@ -78,4 +78,28 @@ a:hover {
 
 .project-info {
     padding: 10px;
+}
+
+.whatiknow-wrapper{
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.whatiknow-container {
+    margin-top: 20px;
+    justify-content: space-between;
+    display:flex;
+    
+}
+.whatiknow-item img{
+    height: 40px;
+    width: 40px;
+}
+
+.whatiknow-item {
+    justify-content: center;
+    text-align: center;
 }
