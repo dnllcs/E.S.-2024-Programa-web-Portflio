@@ -11,58 +11,64 @@
             <div class="container">
                 <nav class="main-navigation">
                     <ul>
-                        <li><a href="#sobre-mim">Some Mim</a></li>
-                        <li><a href="#Projetos">Projetos</a></li>
-                        <li><a href="#Contado">Contado</a></li>
-                        <li><a href="#Fomação">Fomação</a></li>
+                        <li><a href="#place-holder">place-holder</a></li>
+                        <li><a href="#place-holder">place-holder</a></li>
+                        <li><a href="#place-holder">place-holder</a></li>
+                        <li><a href="#place-holder">place-holder</a></li>
                     </ul>
                 </nav>  
             </div>
         </header>
         <main class="container-main">
             <section class="clearfix">
-                <div>
-                    <img src="placeholder.png" alt="Minha foto" class="image-header">
-                </div>
-                <div>
-                    <h2>Sobre Mim</h2>
-                    <p>olá, eu sou Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Nulla ea
-                        incidunt aspernatur eos dolor magnam quam
-                        adipisci expedita voluptatem impedit deleniti
-                        pariatur quia, suscipit unde consectetur fuga cum dolorum facilis?</p>
+                <div class="about-me">
+                    <img src="img/foto-perfil.jpg" alt="Minha foto" class="image-header">
+                    <div>
+                        <h2>Sobre Mim</h2>
+                        <p>Estudante de Engenharia de Software - IFPR Campus Paranavaí</p>
+                    <div class="links">
+                        <div class="single-link">
+                            <img src="img/linkedin-icon.png" alt="">
+                            <a href="https://www.linkedin.com/in/daniel-leite-401639292">linkedin</a>
+                        </div>
+                        <div class="single-link">
+                            <img src="img/github-icon.jpg" alt="">
+                            <a href="https://github.com/dnllcs">github</a>
+                        </div>
+                        <div class="single-link">
+                            <img src="img/email-icon.png" alt="">
+                            <a href="url">daniellcs04@gmail.com</a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </section>
             <section>
-                <div class = "whatiknow-wrapper">
-                    <h1>Tecnologias</h3>
-                    <div class = "whatiknow-container">
-                        <div class="whatiknow-item">
-                            <img src="placeholder.png" alt="">
+                <div class = "known-technologies-wrapper">
+                    <h1>Conhecimento nas seguintes tecnologias</h3>
+                    <div class = "known-technologies-container">
+                        <div class="known-technologies-item">
+                            <img src="img/java-icon.png" alt="">
                             <div class="item-info">
-                                <h2>example #1</h2>
-                                <p>description</p>
+                                <h2>Java</h2>
                             </div>
                         </div>
-                        <div class="whatiknow-item">
-                            <img src="placeholder.png" alt="">
+                        <div class="known-technologies-item" id="spring-div">
+                            <img src="img/spring-icon.png" alt="">
                             <div class="item-info">
-                                <h2>example #1</h2>
-                                <p>description</p>
+                                <h2>Spring Boot</h2>
                             </div>
                         </div>
-                        <div class="whatiknow-item">
-                            <img src="placeholder.png" alt="">
+                        <div class="known-technologies-item">
+                            <img src="img/mysql-icon.jpg" alt="">
                             <div class="item-info">
-                                <h2>example #1</h2>
-                                <p>description</p>
+                                <h2>Mysql</h2>
                             </div>
                         </div>
-                        <div class="whatiknow-item">
-                            <img src="placeholder.png" alt="">
+                        <div class="known-technologies-item">
+                            <img src="img/python-icon.png" alt="">
                             <div class="item-info">
-                                <h2>example #1</h2>
-                                <p>description</p>
+                                <h2>Python</h2>
                             </div>
                         </div>
                     </div>
@@ -71,28 +77,34 @@
             <section>
                 <h2>Projetos desenvolvidos</h2>
                 <div class="project-grid">
-                    <article class="project-item">
-                        <img src="placeholder.png" alt="">
-                        <div class="project-info">
-                            <h3>Projeto #1</h3>
-                            <p>descrição</p>
-                        </div>
-                    </article>
-                    <article class="project-item">
-                        <img src="placeholder.png" alt="">
-                        <div class="project-info">
-                            <h3>Projeto #1</h3>
-                            <p>descrição</p>
-                        </div>
-                    </article>
-                    <article class="project-item">
-                        <img src="placeholder.png" alt="">
-                        <div class="project-info">
-                            <h3>Projeto #1</h3>
-                            <p>descrição</p>
-                        </div>
+                    <a class="project-link" href="https://github.com/dnllcs/portal-do-aluno">
+                        <article class="project-item">
+                            <img src="img/portal-aluno.png" alt="">
+                            <div class="project-info">
+                                <h2>Portal do aluno</h2>
+                                <p>Desenvolvido no projeto DevChallenge conduzido pela UniFatecie</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="https://github.com/dnllcs/2trimestrePOO">
+                        <article class="project-item">
+                            <img src="img/space-invaders.png" alt="">
+                            <div class="project-info">
+                                <h2>Space Invaders</h2>
+                                <p>Projeto realizado no segundo ano de Engenharia de Software discpilina Programação à objetos</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="project-link" href="https://github.com/dnllcs/email-scheduler">
+                        <article class="project-item">
+                            <img src="img/email-icon.png" alt="">
+                            <div class="project-info">
+                                <h2>Email Scheduler</h2>
+                                <p>Serviço de envio de email provendo zipagem pastas e download de recursos à partir de links</p>
+                            </div>
+                        </article>
+                    </a>
                 </div>
-                </article>
             </section>
         </main>
         <footer class="site-footer">
